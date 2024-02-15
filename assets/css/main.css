@@ -297,6 +297,19 @@ input, select, textarea {
 			}
 
 		}
+	.tech-tags__tag {
+		background-color: #638793;
+		color: #f0f0f0;
+		padding: 3px 7px;
+		border-radius: 4px;
+		margin-right: 4px;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: .5px;
+		display: inline-block;
+		margin-top: 4px;
+		font-size: 11px;
+	}
 
 /* Row */
 

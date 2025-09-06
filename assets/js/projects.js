@@ -3,7 +3,7 @@ const projects = [
         title: "Efficient Domain Adaptation for LLMs",
         image: "images/domain_adaptation.png",
         link: "https://github.com/vedantMahangade/domain_adaptive_llm"
-      },
+    },
     {
       title: "DeepLearning Based Covid Metabolomics",
       image: "images/covid.png",

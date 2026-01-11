@@ -180,10 +180,25 @@ function renderPubCert(publications, certifications) {
   });
 
   (certifications || []).forEach((certification) => {
+    // const item = document.createElement("li");
+    // const label = document.createElement("strong");
+    // label.textContent = certification.title;
+    // item.appendChild(label);
+
+    // if (certification.dateText) {
+    //   const time = document.createElement("span");
+    //   time.textContent = ` (${certification.dateText})`;
+    //   item.appendChild(time);
+    // }
+
+    // list.appendChild(item);
     const item = document.createElement("li");
-    const label = document.createElement("strong");
-    label.textContent = certification.title;
-    item.appendChild(label);
+    const link = document.createElement("a");
+    link.href = certification.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = certification.title;
+    item.appendChild(link);
 
     if (certification.dateText) {
       const time = document.createElement("span");

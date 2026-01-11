@@ -19,19 +19,13 @@
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
-					<span class="icon solid major fa-solid fa-code"></span>
-					<h1>Hi, I'm <strong>Vedant</strong>
-						</h1>
-					<h4>A Developer with background in Machine Learning, Data and Life Sciences.</h4>
+					<span id="hero-icon" class="icon solid major fa-solid fa-code"></span>
+					<h1 id="hero-headline">Hi, I'm <strong>Vedant</strong></h1>
+					<h4 id="hero-tagline">Applied ML Engineer in Genomics & Life Sciences.</h4>
 					<br>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/vedantmahangade/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/vedantMahangade" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						<!-- <li><a href="https://twitter.com/vedantmahangade" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<li><a href="mailto:vedantmahangade@gmail.com" class="icon solid alt fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-					</ul>
+					<ul class="icons" id="hero-icons"></ul>
 					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">MORE</a></li>
+						<li><a id="hero-cta" href="#one" class="button scrolly">MORE</a></li>
 					</ul>
 				</div>
 			</section>
@@ -41,33 +35,12 @@
 				<div class="container">
 					<div class="inner">
 						<header class="major">
-							<h2>Little bit about me</h2>
+							<h2 id="about-heading">Little bit about me</h2>
 						</header>
-						<p>
-							I build machine learning systems for biological data, taking ideas from research to production. 
-							My work focuses on scalable pipelines, transformer models, and interpretable analytics that 
-							turn complex data into systems people can actually use.
-
-							My background spans academic research and industry. So far I have worked primarily on 
-							genomic language models, NLP pipelines, designed production ETL systems, BI engineering, 
-							and reporting solutions that support real decision-making. 
-							
-						</p>
-						<p>
-							I’m motivated by problems where rigorous modeling meets practical constraints especially 
-							in healthcare and life sciences and I enjoy working in collaborative, impact-driven teams 
-							that move ideas from concept to deployment.
-						</p>
-							
+						<div id="about-paragraphs"></div>
 					</div>
 
-					<ul class="actions special">
-						<!--
-						<li><a href="https://docs.google.com/document/d/1eC5kqU97ozyzwu0FpAWC6Z8A9e9FhxHr/edit?usp=sharing&ouid=105093822824459328748&rtpof=true&sd=true" class="button" target="_blank">Resume</a></li>
-						-->
-						<li><a href="https://1drv.ms/b/c/1fc2278072194b8a/IQTyALuhrHFtQo_wIzw4TBs_ARoBrpoXUYKoWPxbBbXLy3o" class="button" target="_blank">Resume</a></li>
-						
-					</ul>
+					<ul class="actions special" id="resume-actions"></ul>
 
 					
 				</div>
@@ -104,67 +77,20 @@
 							<header class="major" >
 								<h2>Places I've worked</h2>
 							</header>
-							<ul>
-								<li><b>Research Associate</b> @
-									<a href="https://cbi.gwu.edu/" target="_blank">GW Computational Biology Institute</a>
-									<br> <date>March 2025 - Present</date>
-									<ul class="mediumtext" style="list-style-type: circle"> 
-										<li><b>Language Models:</b> Developed domain-aware tokenization strategies that improved genomic language model performance and interpretability.
-										<!-- <li><b>Genomics:</b> Applying open-source tools like KMC and HyperEx to process NGS-relevant datasets. -->
-										<li><b>Analysis:</b> Conducted error analysis, ablation studies, and feature attribution to support model interpretability and scientific insight.
-										<li><b>Deployment:</b> Deployed inference pipelines on AWS EC2 using FastAPI to support downstream research analysis
-									</ul>
-								<li><b>Student Communications Assistant</b> @
-									<a href="https://commercialization.gwu.edu/" target="_blank">GW Technology Commercialization Office</a>
-									<br> <date>June 2024 - May 2025</date>
-									<ul class="mediumtext" style="list-style-type: circle"> 
-										<li><b>Data-driven insights:</b> Analyzing website performance through Google Analytics and Siteimprove, leveraging insights to refine digital marketing strategies.
-										<li><b>Website Maintenance & SEO:</b> Spearheading website improvements using Drupal, optimizing the user experience (UX) and enhancing search engine optimization (SEO) .
-										<li><b>Marketing:</b> Designing and managed targeted mass email campaigns, and boosting audience engagement on LinkedIn to elevate the digital presence of GWU technologies.
-									</ul>
-								<li><b>Summer Research Associate</b> @
-									<a href="https://gwipp.gwu.edu/" target="_blank">GW Institute of Public Policy</a>
-									<br> <date>May 2024 - August 2024</date>
-									<ul class="mediumtext" style="list-style-type: circle"> 
-										<li><b>Research:</b> Performed literature review on existing technologies, humanities outcomes to evaluate skills from course syllabi.
-										<li><b>Data Processing:</b> Designed and implemented data processing pipelines to clean and prepare large-scale AI training datasets for fine-tuning LLM.
-										<li><b>Natural Language Processing:</b> Implemented NLP techniques to extract skills from course syllabi and job postings to the create skills taxonomy database.
-										<li><b>Collaboration:</b> Collaborated with community partners and other Institutes to gather insights and understand market requirements.
-									</ul>
-								<li><b>BI Engineer</b> @
-									<a href="https://www.tcs.com/" target="_blank">Tata Consultancy Services</a>
-									<br> <date>August 2021 - August 2023 </date>
-									<ul class="mediumtext" style="list-style-type:circle">
-										<li><b>Data Visualization:</b> Designed compelling Power BI Dashboards and Reports transforming raw banking data into impactful insights.
-										<li><b>Data Analytics:</b> Developed 5 end-to-end analytical reporting solutions, using Microsoft BI Tech stack to reduce operational overhead.
-										<li><b>Predictive Modeling:</b> Implemented Predictive Models for Branch Target prediction and Deposit/Withdrawal Deferential.
-										<li><b>ETL Development:</b> Created and optimized scheduled ETL Dataflows and packages using SSIS for data integration and migration.
-										<li><b>Database Development:</b> Designed and Modeled Databases and Data warehouses to suit reporting needs for 10+ banking departments.
-										<li><b>SQL Programing:</b> Performed Adhoc analysis, SQL Tuning, SQL Development for Procedures, functions and triggers.
-										<li><b>Solution Design:</b> Spearheaded requirements gathering and collaborated with cross-functional teams to ensure alignment with stakeholder needs.
-
-									</ul>
-								<li><b>Clinical Data Engineering Intern</b> @
-									<a href="https://innvocept.com/" target="_blank">Innvocept Global Solutions</a>
-									<br> <date>May 2020 - May 2021</date>
-									<ul class="mediumtext" style="list-style-type: circle"> 
-										<li><b>Data Management:</b> Performed data cleaning and validation for Phase II–IV clinical trials and RWE studies.</li>
-										<li><b>Backend Development:</b> Developed Java, JDBC, and SQL backend modules supporting internal clinical workflows and RFP systems.</li>
-										<li><b>System Testing:</b> Tested CTMS and EDC platforms, validating data workflows, compliance, and user acceptance.</li>
-										<li><b>Regulatory Documentation:</b> Supported SOPs and documentation for IT systems, data privacy, HIPAA, and GDPR compliance.</li>
-										<li><b>CRF Design:</b> Designed study-specific CRFs aligned with protocol requirements and downstream statistical analysis.</li>
-										<li><b>Data Management:</b> Performed data cleaning and validation for Phase II–IV clinical trials and RWE studies.</li>
-									</ul>
-							</ul>
+							<ul id="experience-list"></ul>
 						</div>
 
 					</div>
 				</div>
 				
 			</div>
-			<div class="container">
+			<!-- <div class="container">
 				<h3>Publications and Certifications</h3>  
 				<ul>
+					<li>
+						<b><a href="https://doi.org/10.1101/2025.11.04.686545"target="_blank">Curating 16S rRNA databases enhances taxonomic accuracy and computational efficiency in microbial profiling</a></b>: 
+						bioRxiv 2025/11.
+					</li>
 					<li>
 						<b><a href="https://www.iscb.org/ismbeccb2025/programme-agenda/scientific-programme/microbiome"target="_blank">Guided tokenizer enhances metagenomic language models performance</a></b>: 
 						ISMB/ECCB 2025 – Abstract and Poster.
@@ -177,402 +103,50 @@
 						<b>Microsoft Certified: Power BI Data Analyst Associate</b> (January 2023).
 					</li>
 				</ul>
+			</div> -->
+		<!-- </section>
+
+
+		<section id="four" class="main style1"> -->
+			<div class="container">
+				<header class="major">
+					<h2>Publications and Certifications</h2>
+				</header>
+				<ul id="pub-cert-list" class="pubcert-list"></ul>
 			</div>
 		</section>
 
 
-
-
 		<!-- Four -->
-		<section id="four" class="main style2 special">
+		<section id="six" class="main style2 special">
 			<div class="container">
 				<header class="major">
 					<h2>Skills I've developed</h2>
 				</header>
 				<p>Through projects, academics and work experience.</p>
-				<div class="row gtr-50">
-					<div class="col-4 col-12-medium">
-						<h3>Languages</h3>
-						<span class="tech-tags__tag">Python</span>
-						<span class="tech-tags__tag">Microsoft SQL</span>
-						<span class="tech-tags__tag">My SQL</span>
-						<span class="tech-tags__tag">R</span>
-						<span class="tech-tags__tag">Java</span>
-						<span class="tech-tags__tag">DAX</span>
-						<span class="tech-tags__tag">Kotlin</span>
-						<span class="tech-tags__tag">C++</span>
-						<span class="tech-tags__tag">HTML</span>
-						<span class="tech-tags__tag">Bash</span>
-					</div>
-					<div class="col-4 col-12-medium">
-						<h3>Tools</h3>
-						<span class="tech-tags__tag">Power BI</span>
-						<span class="tech-tags__tag">SSAS</span>
-						<span class="tech-tags__tag">SSIS</span>
-						<span class="tech-tags__tag">SSRS</span>
-						<span class="tech-tags__tag">OpenCV</span>
-						<span class="tech-tags__tag">Tensorflow</span>
-						<span class="tech-tags__tag">Microsoft Excel</span>
-						<span class="tech-tags__tag">CTMS</span>
-						<span class="tech-tags__tag">EDC</span>
-						<span class="tech-tags__tag">GIT</span>
-					</div>
-					<div class="col-4 col-12-medium">
-						<h3>Few More</h3>
-						<span class="tech-tags__tag">Data Visualization</span>
-						<span class="tech-tags__tag">Machine Learning</span>
-						<span class="tech-tags__tag">Predictive Modeling</span>
-						<span class="tech-tags__tag">Data Modeling</span>
-						<span class="tech-tags__tag">Data Analytics</span>
-						<span class="tech-tags__tag">ETL Development</span>
-						<span class="tech-tags__tag">Back-end Development</span>
-						<span class="tech-tags__tag">Algorithm Design</span>
-						<span class="tech-tags__tag">Solution Design</span>
-					</div>
-				</div>
+				<div class="row gtr-50" id="skills-grid"></div>
 				
 			</div>
 		</section>
 
 		<!-- five -->
-			<section id="five" class="main style1 special">
+			<section id="seven" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Get in touch</h2>
+						<h2 id="contact-heading">Get in touch</h2>
 					</header>
-					<p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant internship opportunities.</p>
+					<p id="contact-body">My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant internship opportunities.</p>
 					<ul class="actions special">
-						<li><a href="mailto:vedantmahangade@gmail.com" class="button wide primary">Mail Me</a></li>
+						<li><a id="contact-email" href="mailto:vedantmahangade@gmail.com" class="button wide primary">Mail Me</a></li>
 					</ul>
 				</div>
 			</section>
 
-		<!-- Five -->
-		<!--
-			<section id="five" class="main style1">
-				<div class="container">
-					<header class="major special">
-						<h2>Elements</h2>
-					</header>
-
-					<section>
-						<h4>Text</h4>
-						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-						<hr />
-						<header>
-							<h4>Heading with a Subtitle</h4>
-							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-						</header>
-						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-						<header>
-							<h5>Heading with a Subtitle</h5>
-							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-						</header>
-						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-						<hr />
-						<h2>Heading Level 2</h2>
-						<h3>Heading Level 3</h3>
-						<h4>Heading Level 4</h4>
-						<h5>Heading Level 5</h5>
-						<h6>Heading Level 6</h6>
-						<hr />
-						<h5>Blockquote</h5>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-						<h5>Preformatted</h5>
-						<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-					</section>
-
-					<section>
-						<h4>Lists</h4>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<h5>Unordered</h5>
-								<ul>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Sagittis adipiscing.</li>
-									<li>Felis enim feugiat.</li>
-								</ul>
-								<h5>Alternate</h5>
-								<ul class="alt">
-									<li>Dolor pulvinar etiam.</li>
-									<li>Sagittis adipiscing.</li>
-									<li>Felis enim feugiat.</li>
-								</ul>
-							</div>
-							<div class="col-6 col-12-medium">
-								<h5>Ordered</h5>
-								<ol>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Etiam vel felis viverra.</li>
-									<li>Felis enim feugiat.</li>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Etiam vel felis lorem.</li>
-									<li>Felis enim et feugiat.</li>
-								</ol>
-								<h5>Icons</h5>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								</ul>
-							</div>
-						</div>
-						<h5>Actions</h5>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<ul class="actions">
-									<li><a href="#" class="button primary">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-								</ul>
-								<ul class="actions small">
-									<li><a href="#" class="button primary small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-								</ul>
-							</div>
-							<div class="col-6 col-12-medium">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Default</a></li>
-									<li><a href="#" class="button fit">Default</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary small fit">Small</a></li>
-									<li><a href="#" class="button small fit">Small</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<h4>Table</h4>
-						<h5>Default</h5>
-						<div class="table-wrapper">
-							<table>
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Item One</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Two</td>
-										<td>Vis ac commodo adipiscing arcu aliquet.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Three</td>
-										<td> Morbi faucibus arcu accumsan lorem.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Four</td>
-										<td>Vitae integer tempus condimentum.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Five</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-
-						<h5>Alternate</h5>
-						<div class="table-wrapper">
-							<table class="alt">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Item One</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Two</td>
-										<td>Vis ac commodo adipiscing arcu aliquet.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Three</td>
-										<td> Morbi faucibus arcu accumsan lorem.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Four</td>
-										<td>Vitae integer tempus condimentum.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Five</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-
-					<section>
-						<h4>Buttons</h4>
-						<ul class="actions">
-							<li><a href="#" class="button primary">Primary</a></li>
-							<li><a href="#" class="button">Default</a></li>
-						</ul>
-						<ul class="actions">
-							<li><a href="#" class="button large">Large</a></li>
-							<li><a href="#" class="button">Default</a></li>
-							<li><a href="#" class="button small">Small</a></li>
-						</ul>
-						<ul class="actions fit">
-							<li><a href="#" class="button fit">Fit</a></li>
-							<li><a href="#" class="button primary fit">Fit</a></li>
-							<li><a href="#" class="button fit">Fit</a></li>
-						</ul>
-						<ul class="actions fit small">
-							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-							<li><a href="#" class="button fit small">Fit + Small</a></li>
-							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-						</ul>
-						<ul class="actions">
-							<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-							<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-						</ul>
-						<ul class="actions">
-							<li><span class="button primary disabled">Disabled</span></li>
-							<li><span class="button disabled">Disabled</span></li>
-						</ul>
-					</section>
-
-					<section>
-						<h4>Form</h4>
-						<form method="post" action="#">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-								</div>
-								<div class="col-12">
-									<select name="demo-category" id="demo-category">
-										<option value="">- Category -</option>
-										<option value="1">Manufacturing</option>
-										<option value="1">Shipping</option>
-										<option value="1">Administration</option>
-										<option value="1">Human Resources</option>
-									</select>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-									<label for="demo-priority-low">Low</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
-									<label for="demo-priority-normal">Normal</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-high" name="demo-priority">
-									<label for="demo-priority-high">High</label>
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-copy" name="demo-copy">
-									<label for="demo-copy">Email me a copy</label>
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-human" name="demo-human" checked>
-									<label for="demo-human">Not a robot</label>
-								</div>
-								<div class="col-12">
-									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-
-					<section>
-						<h4>Image</h4>
-						<h5>Fit</h5>
-						<div class="box alt">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-12"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-							</div>
-						</div>
-						<h5>Left &amp; Right</h5>
-						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-					</section>
-
-				</div>
-			</section>
-		-->
+	
 
 		<!-- Footer -->
 			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/vedantmahangade/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/vedantMahangade" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						<!-- <li><a href="https://twitter.com/vedantmahangade" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<li><a href="mailto:vedantmahangade@gmail.com" class="icon solid alt fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-				</ul>
+				<ul class="icons" id="footer-icons"></ul>
 				<ul class="copyright">
 					<li>Developed and Maintained by Vedant Mahangade</li>
 				</ul>
@@ -589,6 +163,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/projects.js"></script>
+			<script src="assets/js/content.js"></script>
 
 	</body>
 </html>

@@ -1,0 +1,344 @@
+{
+  "hero": {
+    "iconClass": "icon solid major fa-solid fa-code",
+    "headline": "Hi, I'm <strong>Vedant</strong>",
+    "tagline": "Applied ML Engineer in Genomics & Life Sciences.",
+    "cta": {
+      "text": "MORE",
+      "href": "#one"
+    }
+  },
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vedantmahangade/",
+      "iconClass": "icon brands alt fa-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/vedantMahangade",
+      "iconClass": "icon brands alt fa-github"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:vedantmahangade@gmail.com",
+      "iconClass": "icon solid alt fa-envelope"
+    }
+  ],
+  "about": {
+    "heading": "Little bit about me",
+    "paragraphs": [
+      "I build applied machine learning systems for biological and genomic data, translating ideas from research into production-ready models and pipelines. My work focuses on genomic language models, transformer-based NLP, scalable data pipelines, and interpretable ML that turn complex data into systems people can actually use.",
+      "My background spans industry and applied research. I’ve worked on metagenomics and NLP pipelines, designed production ETL systems, and built analytics and BI solutions that support real, time-sensitive decision-making.",
+      "I’m motivated by problems where rigorous modeling meets real-world constraints, especially in healthcare and life sciences, and I enjoy working in collaborative, impact-driven teams that move ideas from concept to deployment."
+    ],
+    "resume": {
+      "text": "Resume",
+      "href": "https://1drv.ms/b/c/1fc2278072194b8a/IQTyALuhrHFtQo_wIzw4TBs_ARoBrpoXUYKoWPxbBbXLy3o"
+    }
+  },
+  "projects": [
+    {
+      "title": "Efficient Domain Adaptation for LLMs",
+      "image": "images/domain_adaptation.png",
+      "link": "https://github.com/vedantMahangade/domain_adaptive_llm"
+    },
+    {
+      "title": "DeepLearning Based Covid Metabolomics",
+      "image": "images/covid.png",
+      "link": "https://github.com/vedantMahangade/DeepLearning-Based-Covid-Metabolomics"
+    },
+    {
+      "title": "E. coli Drug Resistance: Gene Expression Analysis",
+      "image": "images/ecoli.png",
+      "link": "https://github.com/vedantMahangade/DrugResistant-Vs-Susceptible-Ecoli-Transcriptomics"
+    },
+    {
+      "title": "NucArg: Antibiotic Resistance Gene Detection",
+      "image": "images/nucarg.png",
+      "link": "https://github.com/vedantMahangade/"
+    },
+    {
+      "title": "LAiSER: Learning Analytics & Skills Extraction Platform",
+      "image": "images/laiser.png",
+      "link": "https://laiser-software.github.io/docs/"
+    },
+    {
+      "title": "PII Data Detection",
+      "image": "images/pii.png",
+      "link": "https://github.com/vedantMahangade/PII-Data-Detection"
+    },
+    {
+      "title": "A 2 Stage Traffic Sign Classifier",
+      "image": "images/classifier.png",
+      "link": "https://github.com/vedantMahangade/2Stage-Traffic-Sign-Classifier"
+    },
+    {
+      "title": "Myocardial Infraction Complication Prediction",
+      "image": "images/myochardial.png",
+      "link": "https://github.com/vedantMahangade/Myocardial-Infarction-Prediction"
+    },
+    {
+      "title": "Malignant Cancer Tissue Detection",
+      "image": "images/tumor.png",
+      "link": "https://github.com/vedantMahangade/Malignant-Cancer-Detection"
+    },
+    {
+      "title": "Emotion Analysis",
+      "image": "images/emotion.png",
+      "link": "https://github.com/vedantMahangade/Emotion-Analysis"
+    },
+    {
+      "title": "Spotify Song Stream Prediction",
+      "image": "images/spotify.png",
+      "link": "https://github.com/vedantMahangade/Spotify-Most-Streamed-2023"
+    },
+    {
+      "title": "The Movie App",
+      "image": "images/movie.png",
+      "link": "https://github.com/CSCI-6221-Kotlin/Movie-App"
+    },
+    {
+      "title": "A Payroll Management System",
+      "image": "images/payroll.png",
+      "link": "https://github.com/vedantMahangade/Payroll-Management-System"
+    },
+    {
+      "title": "Power BI reports",
+      "image": "images/powerbi.png",
+      "link": "https://github.com/vedantMahangade/PowerBI-Reports"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Research Associate",
+      "organization": "GW Computational Biology Institute",
+      "organizationUrl": "https://cbi.gwu.edu/",
+      "dates": "March 2025 - Present",
+      "highlights": [
+        {
+          "label": "Language Models",
+          "description": "Developed domain-aware tokenization strategies that improved genomic language model performance and interpretability."
+        },
+        {
+          "label": "Analysis",
+          "description": "Conducted error analysis, ablation studies, and feature attribution to support model interpretability and scientific insight."
+        },
+        {
+          "label": "Deployment",
+          "description": "Deployed inference pipelines on AWS EC2 using FastAPI to support downstream research analysis"
+        }
+      ]
+    },
+    {
+      "role": "Student Communications Assistant",
+      "organization": "GW Technology Commercialization Office",
+      "organizationUrl": "https://commercialization.gwu.edu/",
+      "dates": "June 2024 - May 2025",
+      "highlights": [
+        {
+          "label": "Data-driven insights",
+          "description": "Analyzing website performance through Google Analytics and Siteimprove, leveraging insights to refine digital marketing strategies."
+        },
+        {
+          "label": "Website Maintenance & SEO",
+          "description": "Spearheading website improvements using Drupal, optimizing the user experience (UX) and enhancing search engine optimization (SEO) ."
+        },
+        {
+          "label": "Marketing",
+          "description": "Designing and managed targeted mass email campaigns, and boosting audience engagement on LinkedIn to elevate the digital presence of GWU technologies."
+        }
+      ]
+    },
+    {
+      "role": "Summer Research Associate",
+      "organization": "GW Institute of Public Policy",
+      "organizationUrl": "https://gwipp.gwu.edu/",
+      "dates": "May 2024 - August 2024",
+      "highlights": [
+        {
+          "label": "Research",
+          "description": "Performed literature review on existing technologies, humanities outcomes to evaluate skills from course syllabi."
+        },
+        {
+          "label": "Data Processing",
+          "description": "Designed and implemented data processing pipelines to clean and prepare large-scale AI training datasets for fine-tuning LLM."
+        },
+        {
+          "label": "Natural Language Processing",
+          "description": "Implemented NLP techniques to extract skills from course syllabi and job postings to the create skills taxonomy database."
+        },
+        {
+          "label": "Collaboration",
+          "description": "Collaborated with community partners and other Institutes to gather insights and understand market requirements."
+        }
+      ]
+    },
+    {
+      "role": "BI Engineer",
+      "organization": "Tata Consultancy Services",
+      "organizationUrl": "https://www.tcs.com/",
+      "dates": "August 2021 - August 2023",
+      "highlights": [
+        {
+          "label": "Data Visualization",
+          "description": "Designed compelling Power BI Dashboards and Reports transforming raw banking data into impactful insights."
+        },
+        {
+          "label": "Data Analytics",
+          "description": "Developed 5 end-to-end analytical reporting solutions, using Microsoft BI Tech stack to reduce operational overhead."
+        },
+        {
+          "label": "Predictive Modeling",
+          "description": "Implemented Predictive Models for Branch Target prediction and Deposit/Withdrawal Deferential."
+        },
+        {
+          "label": "ETL Development",
+          "description": "Created and optimized scheduled ETL Dataflows and packages using SSIS for data integration and migration."
+        },
+        {
+          "label": "Database Development",
+          "description": "Designed and Modeled Databases and Data warehouses to suit reporting needs for 10+ banking departments."
+        },
+        {
+          "label": "SQL Programing",
+          "description": "Performed Adhoc analysis, SQL Tuning, SQL Development for Procedures, functions and triggers."
+        },
+        {
+          "label": "Solution Design",
+          "description": "Spearheaded requirements gathering and collaborated with cross-functional teams to ensure alignment with stakeholder needs."
+        }
+      ]
+    },
+    {
+      "role": "Clinical Data Engineering Intern",
+      "organization": "Innvocept Global Solutions",
+      "organizationUrl": "https://innvocept.com/",
+      "dates": "May 2020 - May 2021",
+      "highlights": [
+        {
+          "label": "Data Management",
+          "description": "Performed data cleaning and validation for Phase II–IV clinical trials and RWE studies."
+        },
+        {
+          "label": "Backend Development",
+          "description": "Developed Java, JDBC, and SQL backend modules supporting internal clinical workflows and RFP systems."
+        },
+        {
+          "label": "System Testing",
+          "description": "Tested CTMS and EDC platforms, validating data workflows, compliance, and user acceptance."
+        },
+        {
+          "label": "Regulatory Documentation",
+          "description": "Supported SOPs and documentation for IT systems, data privacy, HIPAA, and GDPR compliance."
+        },
+        {
+          "label": "CRF Design",
+          "description": "Designed study-specific CRFs aligned with protocol requirements and downstream statistical analysis."
+        },
+        {
+          "label": "Data Management",
+          "description": "Performed data cleaning and validation for Phase II–IV clinical trials and RWE studies."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Curating 16S rRNA databases enhances taxonomic accuracy and computational efficiency in microbial profiling",
+      "url": "https://doi.org/10.1101/2025.11.04.686545",
+      "venue": "bioRxiv",
+      "datetime": "2025-11",
+      "dateText": "Nov 2025",
+      "tags": [
+        "Preprint"
+      ]
+    },
+    {
+      "title": "Guided tokenizer enhances metagenomic language models performance",
+      "url": "https://www.iscb.org/ismbeccb2025/programme-agenda/scientific-programme/microbiome",
+      "venue": "ISMB/ECCB",
+      "datetime": "2025-07",
+      "dateText": "2025",
+      "tags": [
+        "Poster",
+        "Abstract"
+      ]
+    },
+    {
+      "title": "Image Classification for Traffic Sign Recognition",
+      "url": "https://ijisrt.com/image-classification-for-traffic-sign-recognition",
+      "venue": "IJISRT",
+      "datetime": "2022-09",
+      "dateText": "Sep 2022",
+      "tags": [
+        "Non–peer-reviewed"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "NVIDIA: Fundamentals of Accelerated Data Science",
+      "datetime": "2025-10",
+      "dateText": "Oct 2025"
+    },
+    {
+      "title": "Microsoft Certified: Power BI Data Analyst Associate",
+      "datetime": "2023-01",
+      "dateText": "Jan 2023"
+    }
+
+  ],
+  "skills": [
+    {
+      "heading": "Languages",
+      "items": [
+        "Python",
+        "Microsoft SQL",
+        "My SQL",
+        "R",
+        "Java",
+        "DAX",
+        "Kotlin",
+        "C++",
+        "HTML",
+        "Bash"
+      ]
+    },
+    {
+      "heading": "Tools",
+      "items": [
+        "Power BI",
+        "SSAS",
+        "SSIS",
+        "SSRS",
+        "OpenCV",
+        "Tensorflow",
+        "Microsoft Excel",
+        "CTMS",
+        "EDC",
+        "GIT"
+      ]
+    },
+    {
+      "heading": "Few More",
+      "items": [
+        "Data Visualization",
+        "Machine Learning",
+        "Predictive Modeling",
+        "Data Modeling",
+        "Data Analytics",
+        "ETL Development",
+        "Back-end Development",
+        "Algorithm Design",
+        "Solution Design"
+      ]
+    }
+  ],
+  "contact": {
+    "heading": "Get in touch",
+    "body": "My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant internship opportunities.",
+    "button": "Mail Me",
+    "email": "vedantmahangade@gmail.com"
+  }
+}
